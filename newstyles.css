@@ -1,0 +1,100 @@
+body{
+  background-color: #005086;
+}
+
+button
+{
+  height : 250px;
+  width : 250px;
+  border-radius: 100%;
+  border : 8px solid black;
+}
+.pressed
+{
+  box-shadow : 0 0 10px 5px white;
+  background-color: grey;
+}
+.container
+{
+  width : 80%;
+}
+.message
+{
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  color : floralwhite;
+  font-size : 4rem;
+  margin : 2rem;
+}
+.wrong-answer
+{
+  background-color: red;
+}
+.blue
+{
+  background-color: blue;
+}
+.red
+{
+  background-color: red;
+}
+.yellow
+{
+  background-color: yellow;
+}
+.green
+{
+  background-color: green;
+}
+.row
+{
+  width : 70%;
+  margin : auto;
+  text-align: center;
+}
+.left
+{
+  padding-left : 125px;
+  padding-top : 15px;
+  padding-bottom : 15px;
+}
+.right
+{
+  padding-right : 125px;
+  padding-top : 15px;
+  padding-bottom : 15px;
+}
+@media screen and (min-width : 1000px) and (max-width : 1150px)
+{
+  .left
+  {
+     padding-left : 100px;
+     transition : padding-left .5s;
+  }
+  .right
+  {
+     padding-right : 100px;
+     transition : padding-right .5s;
+  }
+
+}
+@media screen and (max-width : 1000px)
+{
+button
+{
+  width : 200px;
+  height : 200px;
+  transition: width height .8s;
+}
+  .left
+  {
+     padding-left : 15px;
+     transition : padding-left .5s;
+  }
+  .right
+  {
+     padding-right : 15px;
+     transition : padding-right .5s;
+  }
+
+}
